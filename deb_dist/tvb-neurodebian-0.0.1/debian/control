@@ -1,0 +1,17 @@
+Source: tvb-neurodebian
+Maintainer: Umar Abdullahi <umarbrowser20@gmail.com>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7.4.3)
+Standards-Version: 3.9.1
+
+
+
+Package: python-tvb-neurodebian
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Simple Package(Example) for packaging Tvb to Neurodebian
+
+
+
+
