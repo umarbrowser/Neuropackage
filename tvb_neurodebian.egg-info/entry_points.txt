@@ -1,3 +1,0 @@
-[console_scripts]
-tvb = tvb:main
-

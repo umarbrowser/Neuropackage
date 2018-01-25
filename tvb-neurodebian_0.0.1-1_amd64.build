@@ -1,0 +1,27 @@
+ dpkg-buildpackage -rfakeroot -us -uc -i -I
+dpkg-buildpackage: info: source package tvb-neurodebian
+dpkg-buildpackage: info: source version 0.0.1-1
+dpkg-buildpackage: info: source distribution UNRELEASED
+dpkg-buildpackage: info: source changed by umar abdullahi <umarbrowser20@gmail.com>
+ dpkg-source -i -I --before-build tvb-neurodebian-0.0.1
+dpkg-buildpackage: info: host architecture amd64
+ fakeroot debian/rules clean
+dh clean --with python2
+   dh_testdir
+   dh_auto_clean
+	python setup.py clean -a
+running clean
+'build/lib.linux-x86_64-2.7' does not exist -- can't clean it
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-2.7' does not exist -- can't clean it
+	find . -name \*.pyc -exec rm {} \+
+   dh_clean
+ dpkg-source -i -I -b tvb-neurodebian-0.0.1
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: building tvb-neurodebian using existing ./tvb-neurodebian_0.0.1.orig.tar.gz
+dpkg-source: info: local changes detected, the modified files are:
+ tvb-neurodebian-0.0.1/tvb_neurodebian.egg-info/PKG-INFO
+ tvb-neurodebian-0.0.1/tvb_neurodebian.egg-info/SOURCES.txt
+dpkg-source: error: aborting due to unexpected upstream changes, see /tmp/tvb-neurodebian_0.0.1-1.diff.qp3piT
+dpkg-source: info: you can integrate the local changes with dpkg-source --commit
+dpkg-buildpackage: error: dpkg-source -i -I -b tvb-neurodebian-0.0.1 gave error exit status 2

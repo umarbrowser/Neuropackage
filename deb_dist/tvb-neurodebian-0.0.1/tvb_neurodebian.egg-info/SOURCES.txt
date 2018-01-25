@@ -1,8 +1,0 @@
-setup.py
-tvb/__init__.py
-tvb/ascii.py
-tvb_neurodebian.egg-info/PKG-INFO
-tvb_neurodebian.egg-info/SOURCES.txt
-tvb_neurodebian.egg-info/dependency_links.txt
-tvb_neurodebian.egg-info/entry_points.txt
-tvb_neurodebian.egg-info/top_level.txt

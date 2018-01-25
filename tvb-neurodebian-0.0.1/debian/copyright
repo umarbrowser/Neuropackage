@@ -1,27 +1,27 @@
-TheVirtualBrain is a brain-simulation software. See also http://www.thevirtualbrain.org
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: tvb-neurodebian
+Source: <https://github.com/umarbrowser/Neuropackage>
+#
+# Please double check copyright with the licensecheck(1) command.
 
-(c) 2012-2017, Baycrest Centre for Geriatric Care ("Baycrest") and others
+Files:     PKG-INFO
+           setup.cfg
+           setup.py
+           tvb/__init__.py
+           tvb/ascii.py
+           tvb_neurodebian.egg-info/PKG-INFO
+           tvb_neurodebian.egg-info/SOURCES.txt
+           tvb_neurodebian.egg-info/dependency_links.txt
+           tvb_neurodebian.egg-info/entry_points.txt
+           tvb_neurodebian.egg-info/top_level.txt
+Copyright: Lincense
+License:   Lincense
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
 
-This program is free software: you can redistribute it and/or modify it under the terms
-of the GNU General Public License as published by the Free Software Foundation, either
-version 3 of the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-See the GNU General Public License (GPl_LICENSE.TXT from bellow) for more details.
-
------------------
-CITATION:
-
-When using The Virtual Brain for scientific publications, please cite it as follows:
-
-Paula Sanz Leon, Stuart A. Knock, M. Marmaduke Woodman, Lia Domide, Jochen Mersmann, Anthony R. McIntosh, Viktor Jirsa (2013)
-The Virtual Brain: a simulator of primate brain network dynamics. Frontiers in Neuroinformatics (7:10. doi: 10.3389/fninf.2013.00010)
-
----------------
-
-GPL_LICENSE.TXT
-                      GNU GENERAL PUBLIC LICENSE
+Lincense:
+                    GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
  Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
@@ -695,3 +695,4 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <http://www.gnu.org/philosophy/why-not-lgpl.html>.
+

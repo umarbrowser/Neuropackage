@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Thu, 25 Jan 2018 07:17:47 +0100
+Source: tvb-neurodebian
+Binary: tvb-neurodebian
+Architecture: source amd64
+Version: 0.0.1-1
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: umar abdullahi <umarbrowser20@gmail.com>
+Changed-By: umar abdullahi <umarbrowser20@gmail.com>
+Description:
+ tvb-neurodebian - simple package to show i can do it
+Changes:
+ tvb-neurodebian (0.0.1-1) UNRELEASED; urgency=low
+ .
+   * Initial release. Closes: #nnnn
+     <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ a986e3def040e1bf8801eb8ac79e84ac2f8b8a24 934 tvb-neurodebian_0.0.1-1.dsc
+ fb63745a637c29997b80da83e1049c7a58cb5148 1468 tvb-neurodebian_0.0.1.orig.tar.gz
+ f4d5026d12ec1f2d29dd41c6c8fdb4401a59c051 12960 tvb-neurodebian_0.0.1-1.debian.tar.xz
+ 1e96af2dc95f2ec4419744c59877094f462c8ab5 5442 tvb-neurodebian_0.0.1-1_amd64.buildinfo
+ 48e9416948abd62c52a3dc846448d58be2b86ced 14626 tvb-neurodebian_0.0.1-1_amd64.deb
+Checksums-Sha256:
+ 52d33fb5d62927de1557e0e41d0954db1f90a727ae0d151061f0c1429551cd49 934 tvb-neurodebian_0.0.1-1.dsc
+ d81586fe7226980d7b429dd91b6be9d191c088c4325c29869cdd0a09b17a55b9 1468 tvb-neurodebian_0.0.1.orig.tar.gz
+ 1690d8f5fcb881d1d8c9fa114d1a27b035e6345fca25ff6ce90a26b3e1975433 12960 tvb-neurodebian_0.0.1-1.debian.tar.xz
+ 8cd7755d4801cf860e47dc87a7fa8c616cee8a1e0f4d6c607d4a795aef37c236 5442 tvb-neurodebian_0.0.1-1_amd64.buildinfo
+ 403f4cf3785e9c62f407fa075c61e06629c4d9328c867c63bc2cd4142ce6c85d 14626 tvb-neurodebian_0.0.1-1_amd64.deb
+Files:
+ 04576bb40e656e7cd847318819145189 934 devel extra tvb-neurodebian_0.0.1-1.dsc
+ 7a9f97c68b6cd9dc640ea30c7e906fe7 1468 devel extra tvb-neurodebian_0.0.1.orig.tar.gz
+ 4d92f69e8b63ff8bb456839cbcabc762 12960 devel extra tvb-neurodebian_0.0.1-1.debian.tar.xz
+ f4f6867bae8994115194bf7c3ad7a0eb 5442 devel extra tvb-neurodebian_0.0.1-1_amd64.buildinfo
+ c132bd8f356a989a2c0833e0e5e528eb 14626 devel extra tvb-neurodebian_0.0.1-1_amd64.deb

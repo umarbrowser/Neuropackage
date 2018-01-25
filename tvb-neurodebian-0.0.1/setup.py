@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 from setuptools import setup
 
 __author__ = 'Umar Abdullahi'

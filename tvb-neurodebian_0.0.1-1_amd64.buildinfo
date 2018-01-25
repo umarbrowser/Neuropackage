@@ -1,17 +1,20 @@
 Format: 1.0
 Source: tvb-neurodebian
-Binary: python-tvb-neurodebian
-Architecture: source
+Binary: tvb-neurodebian
+Architecture: amd64 source
 Version: 0.0.1-1
 Checksums-Md5:
- 6fdc7fe2fcdbfdf64422a411bfe32c5c 914 tvb-neurodebian_0.0.1-1.dsc
+ 04576bb40e656e7cd847318819145189 934 tvb-neurodebian_0.0.1-1.dsc
+ c132bd8f356a989a2c0833e0e5e528eb 14626 tvb-neurodebian_0.0.1-1_amd64.deb
 Checksums-Sha1:
- 806a8f6dbf4b9401d434f40044235ac3e2bb85e4 914 tvb-neurodebian_0.0.1-1.dsc
+ a986e3def040e1bf8801eb8ac79e84ac2f8b8a24 934 tvb-neurodebian_0.0.1-1.dsc
+ 48e9416948abd62c52a3dc846448d58be2b86ced 14626 tvb-neurodebian_0.0.1-1_amd64.deb
 Checksums-Sha256:
- 6ddc17425f87a67c5b1a83cb130214df67450b0c85afcaf9feaa52be7e1c33ba 914 tvb-neurodebian_0.0.1-1.dsc
+ 52d33fb5d62927de1557e0e41d0954db1f90a727ae0d151061f0c1429551cd49 934 tvb-neurodebian_0.0.1-1.dsc
+ 403f4cf3785e9c62f407fa075c61e06629c4d9328c867c63bc2cd4142ce6c85d 14626 tvb-neurodebian_0.0.1-1_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Tue, 23 Jan 2018 10:39:13 +0100
+Build-Date: Thu, 25 Jan 2018 07:36:00 +0100
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -33,6 +36,7 @@ Installed-Build-Depends:
  debhelper (= 10.2.5),
  debianutils (= 4.8.1.1),
  dh-autoreconf (= 14),
+ dh-python (= 2.20170125),
  dh-strip-nondeterminism (= 0.034-1),
  diffutils (= 1:3.5-3),
  dpkg (= 1.18.24),
@@ -99,6 +103,7 @@ Installed-Build-Depends:
  libmagic1 (= 1:5.30-1+deb9u1),
  libmount1 (= 2.29.2-1),
  libmpc3 (= 1.0.3-1+b2),
+ libmpdec2 (= 2.4.2-1),
  libmpfr4 (= 3.1.5-1),
  libmpx2 (= 6.3.0-18),
  libncurses5 (= 6.0+20161126-1+deb9u1),
@@ -113,6 +118,9 @@ Installed-Build-Depends:
  libpython-stdlib (= 2.7.13-2),
  libpython2.7-minimal (= 2.7.13-2+deb9u2),
  libpython2.7-stdlib (= 2.7.13-2+deb9u2),
+ libpython3-stdlib (= 3.5.3-1),
+ libpython3.5-minimal (= 3.5.3-1),
+ libpython3.5-stdlib (= 3.5.3-1),
  libquadmath0 (= 6.3.0-18),
  libreadline7 (= 7.0-3),
  libselinux1 (= 2.6-3+b3),
@@ -161,6 +169,10 @@ Installed-Build-Depends:
  python-setuptools (= 33.1.1-1),
  python2.7 (= 2.7.13-2+deb9u2),
  python2.7-minimal (= 2.7.13-2+deb9u2),
+ python3 (= 3.5.3-1),
+ python3-minimal (= 3.5.3-1),
+ python3.5 (= 3.5.3-1),
+ python3.5-minimal (= 3.5.3-1),
  readline-common (= 7.0-3),
  sed (= 4.4-1),
  sensible-utils (= 0.0.9+deb9u1),
@@ -172,4 +184,4 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=2"
  LANG="en_NG"
- SOURCE_DATE_EPOCH="1516700349"
+ SOURCE_DATE_EPOCH="1516861067"
