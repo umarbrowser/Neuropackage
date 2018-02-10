@@ -19,6 +19,6 @@ $ sudo gdebi tvb-neurodebian_0.0.1-1_amd64.deb
 $ tvb Hello-World
 ```
 
-#ScreenShot
+# ScreenShot
 ![](TVBdeb.jpg)
 
