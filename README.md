@@ -11,8 +11,19 @@ $ sudo cd tvb-neurodebian-0.0.1/ && debi
 
 # Install from package
 ```sh
+$ sudo dpkg -i tvb-neurodebian_0.0.1-1_amd64.deb
+```
+or
+
+```sh
 $ sudo gdebi tvb-neurodebian_0.0.1-1_amd64.deb
 ```
+or
+
+```sh
+$ sudo apt-get install -f tvb-neurodebian_0.0.1-1_amd64.deb
+```
+
 # Test and Run
 
 ```sh
